@@ -1,0 +1,38 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilo para a barra de rolagem */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #1f2937;
+}
+::-webkit-scrollbar-thumb {
+    background: #4b5563;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #6b7280;
+}
+
+/* Estilos para o Modal */
+.modal-overlay {
+    transition: opacity 0.3s ease;
+}
+.modal-content {
+    transition: transform 0.3s ease;
+}
+.prose {
+    line-height: 1.6;
+}
+.prose h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.prose p {
+    margin-bottom: 1rem;
+}
